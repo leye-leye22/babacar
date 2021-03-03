@@ -1,0 +1,355 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Lucida Calligraphy;
+	text-decoration: none;
+	list-style: none;
+
+}
+span{
+	color:crimson;
+}
+.navbar{
+	background-color: blue;
+	width: 100%;
+	position: fixed;
+	padding: 	15px 0px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin:auto	;
+}
+
+.logo a{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500;
+}
+.logo a span {
+	color: #000;
+}
+  
+.menu{
+	margin-top: 6px;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color:red;
+}
+
+.l3 a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	margin-right: 0%;
+
+}
+.l3 a span{
+	color: #000;
+}
+.l4{
+	margin-top: 6px;
+}
+.l4 li{
+	display: inline-block;
+}
+.l4 li a{
+
+	color:blue;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+  }
+.l4 li a:hover{
+	color: blue;
+}
+.leye{
+	padding:50px 150px;
+	background-color: white;
+	color: white;
+	margin: 0px;
+
+}
+.leye .text{
+	font-size: 	40px;
+	font-weight: 	500;
+	text-align: 	center;	
+	text-decoration: 	underline crimson;	
+}
+.leye .m7{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;	
+
+}
+.leye .leye1{
+	width: 45%;
+}
+.leye .lux{
+	width: 55%;
+}
+.leye .leye1 img{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+.leye .lux .leye2{
+		font-size: 	35px;
+	font-weight: 	600;
+}
+.leye .lux .leye2 span{
+	color:orange;
+}
+.leye .lux .leye2 p{
+	text-align:justify;
+	font-size: 	30px;	
+}
+.leye .lux a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color:crimson;
+	color: white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson;	
+
+}
+.leye .lux  a:hover{
+	background:none;
+	color:crimson;
+}
+.hj{
+ background-color: blue;
+ color:white;
+ border-radius: 5px;
+ height: 60%;
+ width: 50px;
+}
+.ki{
+	border-radius: 200%;
+	width: 20%;
+	
+	border-color: blue;
+	border:5px solid orange;
+	
+}
+.ko{
+	border-radius: 180%;
+}
+.l2 .tex{
+	font-size: 	40px;
+	font-weight: 	500;
+	text-align: 	center;	
+	
+}
+.l2{
+	background-color:white;
+	color:blue;
+
+
+}
+.kmm{
+   border-radius: 80%;
+	width: 70%;	
+}
+.leyep{
+	font-style: italic;
+	font:arial, sans-serif;
+	text-align: left;
+}
+.LE{
+	margin-left: 50px;
+}
+.gg{
+	border-radius: 5px;
+	background-color: red;
+	color:white;
+}
+.RE{
+	width: 50%
+}
+a{
+	color:blue;
+}
+a:hover{
+	color:crimson;
+	transition-color:2s;
+}
+.far fa-binoculars{
+
+	font-synthesis:
+}
+.pop{
+
+	background-color: black;
+	color:blue;
+}
+.pop a{
+
+	color:pink;
+}
+.mpo{
+background-color: black;
+color:blue;
+}
+.pij{   
+	background-color: red;
+}
+.div-right{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	
+	color: 	white;
+
+	padding: 	30px 40px;
+	margin-top: 	30px;
+
+}
+.mkk{    
+	height: 60px;
+}
+form{
+	align-content: center;
+}
+.tu{
+	background-color: black;
+	color: blue;
+}
+.home{
+	background:url('44729.jpg');
+	height:800px;
+	display: flex;	
+}
+.home .max-width{
+	color: 	white;
+	margin:auto 120px;
+}
+.home .max-width .text-1{
+	font-size: 	40px;
+	font-weight:600;
+	color:blue;
+
+}
+.home .max-width .text-2{
+	color: 	crimson;
+	font-size: 60px;
+	font-weight: 	500;
+}
+.home .max-width .text-3{
+		font-size: 	50px;
+		font-weight: 700;
+		color:blue;
+}
+.home .max-width .text-3 span{
+	color: 	crimson;
+}
+.home .max-width a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	crimson;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson	;
+
+
+}
+.home .max-width a:hover{
+	background:none;
+}
+div .lux a{
+	color: red;
+}
+.poliss{
+background:url('kimetsu.jpg');
+	height:800px;
+	display: flex;	
+}
+.poliss .max-width{
+	color: 	white;
+	margin:auto 120px;
+}
+.poliss .max-width .text-1{
+	font-size: 	40px;
+	font-weight:600;
+	color:blue;
+
+}
+.poliss .max-width .text-2{
+	color: 	crimson;
+	font-size: 60px;
+	font-weight: 	500;
+}
+.poliss .max-width .text-3{
+		font-size: 	50px;
+		font-weight: 700;
+		color:blue;
+}
+.poliss .max-width .text-3 span{
+	color: 	crimson;
+}
+.poliss .max-width a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	crimson;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson	;
+
+
+}
+.poli .max-width a:hover{
+	background:none;
+}
+div .lux a{
+	color: red;
+}
+.down .downcontent{
+	background-color: blue;
+	color:grey;
+	font-size: 30px;
+	text-align:center;
+	border-radius: 5px;
+	height: 100px;
+	border:2px solid crimson;
+	padding-top: 20px;
+	margin: 25px;
+}
+.leye1{
+	text-align: left;
+	margin: 0;
+}
+.olo{
+	border-radius: 5px;
+}
+.tex mark{
+	color:red;
+	justify-content: center;
+	margin: 25px;
+	padding: 25px;
+}
+.text{
+	font-size: 10px;
+	text-align: center;
+}

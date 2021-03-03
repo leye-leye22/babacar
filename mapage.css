@@ -1,0 +1,324 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: monotype corsive;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+span{
+	color:crimson;
+}
+.navbar{
+	background-color: blue;
+	width: 100%;
+	position: fixed;
+	padding: 	15px 0px;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin:auto	;
+}
+
+.logo a{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 500;
+}
+.logo a span {
+	color: #000;
+}
+  
+.menu{
+	margin-top: 6px;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color:red;
+}
+
+.l3 a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	margin-right: 0%;
+
+}
+.l3 a span{
+	color: #000;
+}
+.l4{
+	margin-top: 6px;
+}
+.l4 li{
+	display: inline-block;
+}
+.l4 li a{
+
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+  }
+.l4 li a:hover{
+	color: blue;
+}
+.leye{
+	padding:50px 150px;
+	background-color: black;
+	color: white;
+	margin: 0px;
+
+}
+.leye .text{
+	font-size: 	40px;
+	font-weight: 	500;
+	text-align: 	center;	
+	text-decoration: 	underline crimson;	
+}
+.leye .m7{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;	
+
+}
+.leye .leye1{
+	width: 45%;
+}
+.leye .lux{
+	width: 55%;
+}
+.leye .leye1 img{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	object-fit: cover;
+	  }
+	  .poliss{
+ width: 500px;
+	height:800px;
+	
+
+	
+}
+.poliss .max-width{
+	color: 	white;
+	margin:auto 120px;
+}
+.poliss .max-width .text-1{
+	font-size: 	40px;
+	font-weight:600;
+	color:blue;
+
+}
+.poliss .max-width .text-2{
+	color: 	crimson;
+	font-size: 60px;
+	font-weight: 	500;
+}
+.poliss .max-width .text-3{
+		font-size: 	50px;
+		font-weight: 700;
+		color:blue;
+}
+.poliss .max-width .text-3 span{
+	color: 	crimson;
+}
+.poliss .max-width a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	crimson;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson	;
+
+
+}
+.poliss .max-width a:hover{
+	background:none;
+}
+div .lux a{
+	color: red;
+}
+.logo a{
+	color:#fff;
+	font-size: 40px;
+	font-weight: bold;
+}
+.navbar{
+	width:100%;
+	background-color: #696969;
+	position: fixed;
+	padding: 25px 0px;
+	height: 5%;
+}
+.navbar .max-width{
+	width:1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a{
+	color: black;
+	font-weight: 200;
+	font-size: 20px;
+	margin: 25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color:white;
+}
+.container{
+	position: absolute;
+	top:60%;
+	left:27%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	padding: 15px;
+	background-color:#696969;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 15px 50px rgba(0,0,0,.2) 
+	color:white;
+}
+.container .circle{
+	width: 200%;
+	background-size: 100% 100%;
+	border-radius: 25%;
+	float: left;
+	shape-outside: circle();
+	margin:30px;
+}
+.container .circle img{
+	position: relative;
+	left:50px;
+	border: 3px inset crimson;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	display:inline-block;
+
+	align-content: center;
+}
+.container .circle .p1{
+	display:flex;
+	width: 200px;
+	text-align: justify;
+	font-family:algerian;
+}
+.container1{
+	position:absolute;
+	top:60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	padding: 15px;
+	background-color: #696969;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 15px 50px rgba(0,0,0,.2);
+	color:white;
+}
+.container1 .circle1{
+	width: 200%;
+	background-size:100% 100%;
+	border-radius: 25%;
+	float: left;
+	shape-outside: circle();
+	margin: 30px;
+}
+.contenair1 .circle1 img{
+	position: relative;
+	left:50px;
+	border:3px inset crimson;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	display:inline-block;
+	align-content: center;
+}
+.container1 .circle2 .p2{
+	display:flex;
+	width: 200px;
+	text-align:justify;
+	font-family: algerian;
+}
+.container2{
+	position: absolute;
+	top:60%;
+	left:73%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	padding: 15px;
+
+	background-color: #696969;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 15px 50px rgba(0,0,0,.2)
+	color:white;
+
+}
+.container2 .circle2{
+	width: 200%;
+	background-size: 100% 100%;
+	border-radius: 25%;
+	float:left;
+	shape-outside: circle();
+	margin: 30px;
+}
+.container2 .circle2 img{
+	position: relative;
+	left:50px;
+	border: 3px inset crimson;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	display: inline-block;
+	align-content: center;
+
+
+}
+.container2 .circle2 .p3{
+	display: flex;
+	width: 200px;
+	text-align: justify;
+	font-family:algerian;
+
+}
+.title{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: left;
+	text-decoration:underline crimson;
+
+}
+.p-content{
+	width: 0px;
+}
+.p-content .p9{
+
+}
+.mpl{
+	background:url('kimetsu.jpg');
+}
